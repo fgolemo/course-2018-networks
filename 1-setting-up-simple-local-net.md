@@ -69,7 +69,7 @@ The file `/etc/network/interfaces`  permanently configures different network int
 - **(J)** What is the role of the keyword 'auto'? For this you can consult the manual: man interfaces.
 
 This file is interpreted at boot time, or when you call the script `/etc/init.d/networking restart`. Use the second method to interpret this file and verify that it has been taken into account.
-Reboot the virtual machine with the command reboot. Check your configuration again.
+Reboot the virtual machine with the command `reboot`. Check your configuration again.
 
 ## Using the /etc/hostname file
 
@@ -78,7 +78,7 @@ On VM immortal:
 
     echo immortal > /etc/hostname
 
-then reboot. Do the same with the other 3 VMs.
+then reboot. Do the same with the other 3 VMs (but with their respective names of course).
 
 ## Using the /etc/sysctl.conf file
 
@@ -92,6 +92,6 @@ To leave this QEMU environment cleanly, you must run the 'poweroff' command on e
 
     cd session ; tar cvzf mysession.tgz * ; cd -
 
-You can then move this archive to your $HOME for future use. To restore your saved session, simply do the following:
+You can then move this archive to your ``$HOME` (home directory) for future use. To restore your saved session, simply do the following:
 
     qemunet.sh -s mysession.tgz
