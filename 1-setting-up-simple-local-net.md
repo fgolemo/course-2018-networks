@@ -83,7 +83,7 @@ then reboot. Do the same with the other 3 VMs (but with their respective names o
 ## Using the /etc/sysctl.conf file
 
 The file `/etc/sysctl.conf` configures sysctl - particularly for fine adjustments on ipv4.
-To have a response to the ping broadcast, add this line at the end of the file: `net.ipv4.icmp_echo_ignore_broadcasts = 0`
+To get a response to the ping broadcast, add this line at the end of the file: `net.ipv4.icmp_echo_ignore_broadcasts = 0`
 Edit the file and reboot.
 Try pinging again with the broadcast address.
 That's it, well done. :)
