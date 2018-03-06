@@ -1,5 +1,10 @@
 # Lesson 3 - Network Tools/Utilities
 
+**IMPORTANT** For this lesson you need to install the latest version of qemunet:
+
+    cd ~
+    git clone https://github.com/fgolemo/qemunet.git
+
 To start the virtual network with the configuration of the TP2,  run the following command:
 
     # first you need to update this repository on your PC
@@ -7,7 +12,7 @@ To start the virtual network with the configuration of the TP2,  run the followi
     git pull
 
     # then start QemuNet
-    /net/ens/qemunet/qemunet.sh -s ~/course-2018-networks/gw3.tgz
+    ~/qemunet/qemunet.sh -s ~/course-2018-networks/gw3.tgz
 
 You have the following network, **IP addresses and routing tables are already configured**.
 
