@@ -46,9 +46,9 @@ On `immortal`, run the following command to capture all network traffic:
 
 Now login to `grave` and from there connect to `syl`:
 
-    Root@serious# telnet 192.168.200.3 -l toto
+    Root@grave# telnet 192.168.200.3 -l toto
     Toto@syl$ logout
-    Root@serious#
+    Root@grave#
 
 That's it. Now go back to `immortal` and stop capturing with `CTRL+c`. The file with the tcpdump recording at `/mnt/host/capture` can be opened on the **HOST computer** (your real lab computer where you started QemuNet) in the directory `session/immortal`. If you don't know where to find the `session` folder, ask me. Now open this file with the program `wireshark`.
 
