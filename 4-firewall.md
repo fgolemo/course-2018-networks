@@ -74,5 +74,5 @@ To add a new rule to a firewall string (pay attention to the order of the rules)
 
 - With `<SRC>` indicating the origin of IP packets, such as `-i eth0` or `-s 192.168.0.0/24` or `-s 0/0`;
 - With `<DST>` indicating he destination of the IP packets, for example: `-o eth1` or `-d 147.210.0.0/24`;
-- With `<...>` additional information, for example on the nature of the protocol `-p icmp` or `-p tcp`, possibly with additional information specific to these protocols (`-dport 80` for TCP) `-m state -state NEW`, ...
+- With `<...>` additional information, for example on the nature of the protocol `-p icmp` or `-p tcp`, possibly with additional information specific to these protocols (`-dport 80` for destination port 80 or `-sport 80` for source port 80) `-m state -state NEW`, ...
 - For more information, refer to the manual: `man iptables` or google your question :)
