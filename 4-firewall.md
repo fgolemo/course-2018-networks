@@ -29,7 +29,6 @@ The firewall will be configured on the immortal gateway.
 - **(C)** Allow ping to the internet, but prohibit the reverse.
 - **(D)** Allow access to the web to internal network machines, i.e. allow all DMZ machines to request and receive port 80 and port 443 TCP traffic (which is HTTP and HTTPS respectively)
 - **(E)** Allow `grave` access to the `ssh` server (port 22) of `dt`. Try it.
-Allow access to the web server of `syl`. Test with `telnet` or `netcat`.
 - **(F)** From `opeth` test your firewall with `nmap`!
 
 ## IPtables crash course
