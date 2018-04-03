@@ -21,7 +21,7 @@ The login for the Linux machines is "root" as usual, and the windows machine has
 In order to do anything on windows, you should first
 
 
-    Note : Under Windows, we will use the command prompt in administrator mode - the equivalent of a Linux shell. To do this, press the windows key (or click the windows logo bottom left), type in `cmd`, and right-click on this program to select: Run as Administrator.
+    Note : Under Windows, we will use the command prompt in administrator mode - the equivalent of a Linux shell. To do this, press the windows key (or click the windows logo bottom left), type in `shell` or `command`, and right-click on this program to select: Run as Administrator.
 
 
 - **(A)** What is the IP address of the Windows machine? What is its network mask? Look in the control panel. Do you know why that is the case?
